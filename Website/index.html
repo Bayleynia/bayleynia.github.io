@@ -1,0 +1,84 @@
+
+<html> 
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+<title> Volleyball </title>
+<script type="text/javascript">
+	function banner(){
+    var text = confirm("Volleyball 101: Voleyball Positions and Their Roles")
+    return text;
+	}
+
+	function answer(){
+     var radio = document.getElementsByName("Trivia");
+     var selection = false;
+     var message = "";
+     for( var i = 0; i < radio.length; i++) {
+     	if (radio[i]. value == "yes" && radio[i].checked == true) {
+     		selection = true;
+     	} //end if statement
+     } //end for loop 
+	} //end function answer 
+
+	if (selection == true) {
+		message = message + "b><p style='color:green'>Way to go!</p></b>";
+	} else {
+		message = message + "b><p style='color:red'>Try again my friend.</p></b>"
+	}
+	 document.getElementsById("response").innerHTML = message;{
+
+	 }//end function answer
+</script> 
+<style type="text/css">
+	
+</style>
+</head> 
+<body  id="backround"> 
+	<a onclick="return banner()" href="https://protips.dickssportinggoods.com/sports-and-activities/volleyball-101-volleyball-positions-and-their-roles">
+	<header id="banner"> Volleyball 101</header>
+	</a>
+	<nav>
+		<ul id="navmenu">
+		<li class="navitem"> <a href="index.html"> Home </a> </li>
+		<li class="navitem"> <a href="games.html"> Games</a> </li>
+		<li class="navitem"> <a href="videos.html"> Videos</a> </li>
+		</ul>
+	</nav>
+	<div class="rigthside">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/sE4E_z360kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="leftside">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/so6vcZZLhLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="clearfloat"></div>
+	</div>
+<h1> Need to know things about Volleyball</h1>
+<p> Volleyball <u>is</u> a <b>big fall sport that many love</b>, I love to play on my team and just for fun too.<i>It</i> is a relatively easy sport to learn, and due to that you can get into to it at any point in your life. <span class="wrap-text"> While you can just play it for fun, many love to play competitively.</span> Usally when you play on a Volleyball team, or any team, there are different ranks depending on two things. Your skill level and experience.
+</p> 
+<p class="paragraph"> A Volleyball team consists of 12 players, with six being on the court at one time.</p>
+<ol>
+<li class="listitem"> Volleyball was invented in 1895 by William G. Morgan, physical director of the Young Men's Christian Association (YMCA) in Holyoke, Massachusetts.</li>
+<li class="listitem"> Volleyball did not become an Olympic sport until 1964. </li>
+<li class="listitem"> Volleyball was designed as an indoor sport for businessmen who found the new game of basketball too vigorous. </li>
+<div class="wrap-list">
+</ol> 
+ <h2> Volleyball Trivia Question</h2>
+ <p> Which player should touch the ball every time your team has the ball?</p>
+ <form>
+ 	<div id="response"> </div>
+ 	<input type="radio" name="Trivia" value="no"> Outside Hitter <br>
+ 	<input type="radio" name="Trivia" value="yes"> Setter <br>
+ 	<input type="radio" name="Trivia" value="no"> Middle Blocker <br> 
+ 	<input type="radio" name="Trivia" value="no"> Libero <br>
+ 	<input type="radio" name="Trivia" value="no"> Defensive Specialist <br>
+ 	<input onclick="answer()" type="button" id="sumbit" value="Click Here">
+ </form>
+</div>
+<img src="https://thumbs.dreamstime.com/b/girls-volleyball-team-1270076.jpg" />
+<img src="https://thumbs.dreamstime.com/b/girls-playing-volleyball-indoor-game-15526230.jpg" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/prXYKIX9UTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<center> Bayley Nia Newby  <a href="https://volleyballmag.com"> A Volleyball magazine</a></center>
+ <footer id="footer"> </footer>
+</body> 
+
+</html>
